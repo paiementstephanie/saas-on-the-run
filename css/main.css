@@ -17,3 +17,24 @@ nav a{
 	text-decoration: none;
 	color: black;
 }
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #ccc;
+}
+
+footer ol li{
+	list-style-type: none;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
