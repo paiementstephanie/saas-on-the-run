@@ -30,11 +30,33 @@ footer{
 	background-color: #ccc;
 }
 
-footer ol li{
+footer ol li, footer ul li{
 	list-style-type: none;
+}
+
+footer ul{
+	padding-left:0;
 }
 
 footer a{
 	text-decoration: none;
 	color: black;
 }
+
+
+
+
+
+
+@media only screen and (min-width:25em){
+	nav ol li{
+		display:inline-block;
+	}
+
+	nav{
+		text-align:center;
+	}
+
+}
+
+
