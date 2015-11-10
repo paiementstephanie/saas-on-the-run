@@ -18,7 +18,16 @@ nav a{
 	color: black;
 }
 
+.billboard-wrap{
+	position: relative;
+}
 
+.billboard{
+	position: absolute;
+	bottom:3em;
+	text-align:center;
+	width:100%;
+}
 
 
 
