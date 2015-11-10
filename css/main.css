@@ -24,7 +24,6 @@ nav a{
 
 .billboard{
 	position: absolute;
-	bottom:3em;
 	text-align:center;
 	width:100%;
 	background-image: url("http://placehold.it/600x400");
@@ -33,6 +32,9 @@ nav a{
 	color: white;
 }
 
+.join{
+	background-color: #666666;
+}
 
 
 
