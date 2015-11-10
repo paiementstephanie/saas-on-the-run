@@ -32,8 +32,15 @@ nav a{
 	color: white;
 }
 
+.billboard a{
+	text-decoration: none;
+	color: black;
+}
+
+
 .join{
 	background-color: #666666;
+	text-align:center;
 }
 
 
