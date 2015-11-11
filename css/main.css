@@ -97,6 +97,10 @@ button{
 	border-radius: 0;
 }
 
+hr {
+    border: 15px;
+    color: black;
+}
 
 label{
 	text-align:left;
