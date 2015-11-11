@@ -97,15 +97,17 @@ button{
 	border-radius: 0;
 }
 
-hr {
-    border: 15px;
-    color: black;
+hr{
+	color: white;
 }
 
 label{
 	text-align:left;
 }
 
+form{
+	color: black;
+}
 
 .thank{
 	text-align: center;
