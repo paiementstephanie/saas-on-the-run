@@ -18,12 +18,8 @@ nav a{
 	color: black;
 }
 
-.billboard-wrap{
-	position: relative;
-}
 
 .billboard{
-	position: absolute;
 	text-align:center;
 	width:100%;
 	background-image: url("http://placehold.it/600x800");
