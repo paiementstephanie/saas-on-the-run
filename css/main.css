@@ -75,6 +75,23 @@ button{
 	cursor: pointer;
 }
 
+
+.packages{
+	text-align:center;
+}
+
+.free-trial{
+	background-color: #999999;
+}
+
+.month-60{
+	background-color: #cccccc;
+}
+
+.month-110{
+	background-color: #999999;
+}
+
 .thank{
 	text-align: center;
 }
