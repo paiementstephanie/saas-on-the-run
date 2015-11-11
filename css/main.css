@@ -7,6 +7,18 @@ header{
 	background-color: #eee;
 }
 
+
+.masthead{
+	background-image: url("http://placehold.it/40x40");
+	background-size: 70px auto;
+	padding-top: .5em;
+	padding-right: 1em;
+	background-repeat: no-repeat;
+	background-position: left 20px;
+	text-align: center;
+	margin: 1em;
+}
+
 nav ol li{
 	list-style-type: none;
 }
