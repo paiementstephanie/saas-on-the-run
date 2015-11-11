@@ -52,6 +52,7 @@ nav a{
 .join{
 	background-color: #666666;
 	text-align:center;
+	color: white;
 }
 
 .photo-1{
@@ -132,7 +133,7 @@ footer a{
 
 @media only screen and (min-width:90em){
 	.logo{
-		width: 100px;
+		width: 150px;
 }
 
 	nav{
