@@ -75,6 +75,9 @@ button{
 	cursor: pointer;
 }
 
+.tour-btn{
+	text-align:center;
+}
 
 .packages{
 	text-align:center;
