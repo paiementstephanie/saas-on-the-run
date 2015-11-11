@@ -66,6 +66,9 @@ input{
 	width:100%;
 }
 
+.see-more{
+	text-align:center;
+}
 
 button{
 	border-radius:6px;
