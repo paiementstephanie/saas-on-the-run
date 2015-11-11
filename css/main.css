@@ -54,6 +54,16 @@ nav a{
 	padding:0em;
 }
 
+input{
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}
+
+button{
+	border-radius:6px;
+	cursor: pointer;
+}
+
 .thank{
 	text-align: center;
 }
