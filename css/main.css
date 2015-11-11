@@ -113,6 +113,10 @@ footer a{
 		width: 100px;
 }
 
+	nav{
+		text-align:right;
+	}
+
 }
 
 @media only screen and (min-width:60em){
@@ -120,11 +124,19 @@ footer a{
 		width: 100px;
 }
 
+	nav{
+		text-align:right;
+	}
+
 }
 
 @media only screen and (min-width:90em){
 	.logo{
 		width: 100px;
 }
+
+	nav{
+		text-align:right;
+	}
 
 }
