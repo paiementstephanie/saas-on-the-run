@@ -17,8 +17,16 @@
 <body>
 
 	<header>
-			<nav class="unit xs-1-2 s-1-2 m-3-4 l-3-4 xl-3-4 masthead push-0">
-				<ol class="push-0 island">
+		<div class="grid grid middle">
+			<div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 gutter push-0 section grid-middle no-print">
+				<div class="embed embed--1by1">
+					<img class="embed__item island" src="http://placehold.it/100x100" alt="On the Run logo">
+				</div>
+			</div>
+
+
+			<nav class="unit xs-1-2 s-1-2 m-3-4 l-3-4 xl-3-4">
+				<ol class="island">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="tour.html">Tour</a></li>
 					<li><a href="pricing.html">Pricing</a></li>
@@ -28,13 +36,11 @@
 		</div>
 	</header>
 
-<div class="grid">
-	<div class="billboard unit xs-1 s-1 m-1 l-1 xl-1">
-		<h1 class="pad-t">On The Run</h1>
-			<p class="gutter pad-t">Always one step ahead, never behind.</p>
+	<div class="billboard pad-t pad-b">
+		<h1 class="pad-t push-0">On The Run</h1>
+			<p class="gutter pad-t pad-b">Always one step ahead, never behind.</p>
 			<a class="btn" href="signup.html">Sign Up</a>
 	</div>
-</div>
 
 	<div class="grid">
 
@@ -72,14 +78,14 @@
 			<form action="thankyou.html" method="post">
 
 				<p>
-					<label for="signup_name"></label>
+					<label for="signup_name">Name</label>
 					<input id="signup_name" placeholder="name">
 				</p>
 
-				<label for="signup_e-mail"></label>
+				<label for="signup_e-mail">e-mail</label>
 				<input type="text" name="e-mail" id="signup_e-mail" placeholder="e-mail">
 
-				<label for="signup_password"></label>
+				<label for="signup_password">Password</label>
 				<input type="password"id="signup_password" placeholder="password">
 
 				<button type="submit">get started</button>
