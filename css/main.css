@@ -102,13 +102,20 @@ button{
 	border-radius: 0;
 }
 
-
+.getstarted-btn{
+	display:block;
+	width:100%;
+}
 
 .getstarted-btn:hover{
 	background-color: black;
 	color: white;
 }
 
+.max{
+	max-width: 50em;
+	margin: 0 auto;
+}
 
 .fig-our{
 	text-align:center;
@@ -183,7 +190,7 @@ footer a:hover{
 		text-align:right;
 	}
 .getstarted{
-	text-align:left;
+	display:block;
 }
 }
 
