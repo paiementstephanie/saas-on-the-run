@@ -106,6 +106,12 @@ button{
 	text-align:left;
 }
 
+.getstarted-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+
 .fig-our{
 	text-align:center;
 }
