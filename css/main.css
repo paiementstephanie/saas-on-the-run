@@ -102,9 +102,7 @@ button{
 	border-radius: 0;
 }
 
-.getstarted{
-	text-align:left;
-}
+
 
 .getstarted-btn:hover{
 	background-color: black;
@@ -184,7 +182,9 @@ footer a:hover{
 	nav{
 		text-align:right;
 	}
-
+.getstarted{
+	text-align:left;
+}
 }
 
 @media only screen and (min-width:90em){
@@ -196,4 +196,7 @@ footer a:hover{
 		text-align:right;
 	}
 
+.getstarted{
+	text-align:left;
+}
 }
