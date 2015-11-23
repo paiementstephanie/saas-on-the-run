@@ -7,7 +7,6 @@ header{
 	background-color: #eee;
 }
 
-
 .masthead{
 	background-image: url("http://placehold.it/40x40");
 	background-size: 70px auto;
@@ -39,7 +38,6 @@ nav a{
 	color: black;
 }
 
-
 .billboard{
 	text-align:center;
 	width:100%;
@@ -52,7 +50,6 @@ nav a{
 .billboard a{
 	text-decoration: none;
 }
-
 
 .join{
 	background-color: #666666;
@@ -70,7 +67,6 @@ input{
 	display: inline-block;
 	width:100%;
 }
-
 
 button{
 	border-radius:6px;
@@ -137,7 +133,6 @@ form{
 .thank{
 	text-align: center;
 }
-
 
 footer{
 	background-color: #eee;
