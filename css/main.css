@@ -202,9 +202,18 @@ footer a:hover{
 	nav{
 		text-align:right;
 	}
-.getstarted{
-	display:block;
-}
+
+	.getstarted{
+		display:block;
+	}
+
+	.tour-link{
+		padding-top: 10em;
+	}
+
+	.package-link{
+		padding-top: 10em;
+	}
 }
 
 @media only screen and (min-width:90em){
