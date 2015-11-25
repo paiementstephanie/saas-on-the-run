@@ -45,16 +45,29 @@ nav a{
 	background-size:100% auto;
 	background-position: center;
 	color: white;
+	background-color:#666666;
 }
 
 .billboard a{
 	text-decoration: none;
 }
 
+.board p{
+	text-shadow: 2px 2px 6px black;
+}
+
+h1{
+	text-shadow: 2px 2px 6px black;
+}
+
 .join{
 	background-color: #666666;
 	text-align:center;
 	color: white;
+}
+
+.join p{
+	text-shadow: 2px 2px 6px black;
 }
 
 .photo-1{
