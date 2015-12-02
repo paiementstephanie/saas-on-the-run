@@ -78,13 +78,13 @@
 				<div class="grid grid-bottom ">
 					<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4">
 						<label for="signup"> Name on Card</label>
-						<input id="signup">
+						<input id="signup" required>
 					</div>
 				</div>
 
 				<div class="grid grid-bottom">
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
+						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4" required>
 							<label for="expiration">Expiration</label>
 							<input id="expiration">
 						</div>
@@ -93,21 +93,23 @@
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 							<label for="signup_year">year</label>
-							<input type="date" name="e-mail" id="signup_year">
+							<input type="date" name="e-mail" id="signup_year" required>
 						</div>
 					</div>
 
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-							<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
+							<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4" required>
 								<label for="security">Security Code</label>
 								<input type="password" id="security">
 							</div>
 					</div>
 
-	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4">
+	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4" required>
 						<a class="btn" href="thankyou.html">Submit</a>
 					</div>
 				</div>
+
+				<input type="hidden" name="_next" value="http://paiementstephanie.github.io/saas-on-the-run/thankyou.html">
 			</form>
 		</div>
 
