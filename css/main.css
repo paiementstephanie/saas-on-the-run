@@ -1,6 +1,6 @@
 
 html {
- 	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -100,6 +100,14 @@ button{
 	text-align:center;
 }
 
+.get-btn{
+	background-color: #1f1d21;
+}
+
+.get-btn a:hover{
+	color: #a04847;
+}
+
 .packages{
 	text-align:center;
 }
@@ -175,7 +183,7 @@ footer a{
 }
 
 footer a:hover{
-	color:#999999;
+	color: #a04847;
 }
 
 footer p{
