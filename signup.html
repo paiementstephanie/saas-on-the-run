@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
-		<link href='https://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:500|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="img/favicon.ico"/>
 </head>
 
@@ -43,11 +43,16 @@
 		<h1 class="pad-t">Sign Up</h1>
 	</div>
 
+	<div>
+
 		<div class="unit xs-1 s-1 m-1 l-1 xl-1 join island" role="form">
+			<div>
+				<h2>Personal Information</h3>
+			</div>
 			<form action="thankyou.html" method="post" class="grid grid-bottom gutter-1-4 max-2">
 				<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 					<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
-						<label for="signup_name"> First Name</label>
+						<label for="signup_name">First Name</label>
 						<input id="signup_name" required>
 					</div>
 
@@ -70,10 +75,25 @@
 				</div>
 			</form>
 		</div>
+	</div>
+
 
 
 		<div class="unit xs-1 s-1 m-1 l-1 xl-1 join island">
+			<div>
+				<h2>Billing Information</h3>
+			</div>
 			<form action="thankyou.html" method="post" class="gutter-1-4 max-2">
+
+		<fieldset>
+
+			<input id="credit" type="radio" name="feeling">
+			<label for="credit"><img src="img/credit-cards.png"></label>
+
+			<input id="paypal" type="radio" name="feeling">
+			<label for="paypal"><img src="img/paypal.png"></label>
+
+		</fieldset>
 
 				<div class="grid grid-bottom ">
 					<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4">
