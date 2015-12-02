@@ -61,7 +61,7 @@ h1{
 }
 
 .join{
-	background-color: #666666;
+	background-color: #555f66;
 	text-align:center;
 	color: white;
 }
@@ -168,6 +168,9 @@ footer a:hover{
 	color:#999999;
 }
 
+footer p{
+	margin:0em;
+}
 
 
 
