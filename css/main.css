@@ -4,7 +4,7 @@ html {
 }
 
 header{
-	background-color: #eee;
+	background-color: #a04847;
 }
 
 .masthead{
@@ -62,6 +62,7 @@ nav a{
 h1{
 	text-shadow: 2px 2px 6px black;
 }
+
 
 .join{
 	background-color: #555f66;
@@ -214,12 +215,6 @@ footer p{
 	nav{
 		text-align:right;
 	}
-
-header{
-	position:absolute;
-	width: 100%;
-	background-color: transparent;
-}
 
 .nav-ol{
 	float:right;
