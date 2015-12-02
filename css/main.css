@@ -41,11 +41,12 @@ nav a{
 .billboard{
 	text-align:center;
 	width:100%;
-	background-image: url("http://placehold.it/600x800");
+	background-image: url("../img/billboard-1.jpg");
 	background-size:100% auto;
 	background-position: center;
 	color: white;
 	background-color:#666666;
+	background-repeat: no-repeat,
 }
 
 .billboard a{
