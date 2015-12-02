@@ -48,24 +48,24 @@
 				<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 					<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 						<label for="signup_name"> First Name</label>
-						<input id="signup_name">
+						<input id="signup_name" required>
 					</div>
 
 					<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 						<label for="signup_lastname"> Last Name</label>
-						<input id="signup_lastname">
+						<input id="signup_lastname" required>
 					</div>
 				</div>
 
 				<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 					<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 						<label for="signup_e-mail">e-mail</label>
-						<input type="text" id="signup_e-mail" placeholder="your@email.com">
+						<input type="text" id="signup_e-mail" placeholder="your@email.com" required>
 					</div>
 
 					<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 						<label for="signup_password">Password</label>
-						<input type="password" id="signup_password">
+						<input type="password" id="signup_password" required>
 					</div>
 				</div>
 			</form>
@@ -86,14 +86,14 @@
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4" required>
 							<label for="expiration">Expiration</label>
-							<input id="expiration">
+							<input type="date" id="expiration">
 						</div>
 					</div>
 
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
 							<label for="signup_year">year</label>
-							<input type="date" name="e-mail" id="signup_year" required>
+							<input type="text" name="e-mail" id="signup_year" required>
 						</div>
 					</div>
 
@@ -105,11 +105,11 @@
 					</div>
 
 	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4" required>
-						<a class="btn" href="thankyou.html">Submit</a>
+						<button href="thankyou.html">Submit</button>
 					</div>
 				</div>
 
-				<input type="hidden" name="_next" value="http://paiementstephanie.github.io/saas-on-the-run/thankyou.html">
+				<input type="hidden" name="_next" value="https://paiementstephanie.github.io/saas-on-the-run/thankyou.html">
 			</form>
 		</div>
 
