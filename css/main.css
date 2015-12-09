@@ -127,6 +127,22 @@ button:hover{
 	text-align:center;
 }
 
+.packages p::before{
+	content: " ";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+
+.multi-media::before{
+	background-image: url(../img/multi.svg);
+}
+
 .free-trial{
 	background-color: #999999;
 }
