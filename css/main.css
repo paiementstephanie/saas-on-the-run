@@ -144,19 +144,19 @@ button:hover{
 }
 
 .storage::before{
-	background-image: url(../img/multi.svg);
+	background-image: url(../img/storage-icon.svg);
 }
 
 .boards::before{
-	background-image: url(../img/multi.svg);
+	background-image: url(../img/boards.svg);
 }
 
 .group::before{
-	background-image: url(../img/multi.svg);
+	background-image: url(../img/group-icon.svg);
 }
 
 .alert::before{
-	background-image: url(../img/multi.svg);
+	background-image: url(../img/alert-icon.svg);
 }
 
 .lock::before{
@@ -164,7 +164,7 @@ button:hover{
 }
 
 .cloud::before{
-	background-image: url(../img/multi.svg);
+	background-image: url(../img/cloud-icon.svg);
 }
 
 .free-trial{
