@@ -110,7 +110,7 @@ input:not([type="radio"]){
 .paypal {
 	max-width: 100px;
 	vertical-align: middle;
-	padding-left: .5em ;
+	padding-left: .5em;
 }
 
 button{
@@ -239,8 +239,9 @@ input.max-4{
 }
 
 .security-pic{
-	max-width: 240px;
+	max-width: 150px;
 	margin: 0 auto;
+	padding-top: 1em;
 }
 
 .align{
@@ -349,18 +350,6 @@ footer p{
 	.package-link{
 		padding-top: 10em;
 	}
-}
-
-.credit {
-	max-width: 200px;
-	vertical-align: middle;
-	padding-left: .5em;
-}
-
-.paypal {
-	max-width: 200px;
-	vertical-align: middle;
-	padding-left: .5em ;
 }
 
 @media only screen and (min-width:90em){
