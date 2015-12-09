@@ -87,42 +87,62 @@
 
 		<fieldset>
 
-			<input id="credit" type="radio" name="feeling">
-			<label for="credit"><img src="img/credit-cards.png"></label>
+<div class="grid">
+			<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 join island">
+				<input id="credit" type="radio" name="feeling">
+				<label for="credit"><img class="credit" src="img/credit-cards.png"></label>
+			</div>
 
-			<input id="paypal" type="radio" name="feeling">
-			<label for="paypal"><img src="img/paypal.png"></label>
-
+			<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 join island">
+				<input id="paypal" type="radio" name="feeling">
+				<label for="paypal"><img class="paypal"src="img/paypal.png"></label>
+			</div>
+</div>
 		</fieldset>
+
+				<div class="grid grid-bottom ">
+					<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4">
+						<label for="card-number"> Card Number</label>
+						<input id="card-number" required>
+					</div>
+
+					<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4 text-left">
+						<label for="subject">Card Type</label>
+						<select id="subject" name="_subject">
+							<option>American Express</option>
+							<option> Mastercard</option>
+							<option>Visa</option>
+						</select>
+					</div>
+				</div>
+
 
 				<div class="grid grid-bottom ">
 					<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4">
 						<label for="signup"> Name on Card</label>
 						<input id="signup" required>
 					</div>
+
+
+					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4 text-left" required>
+							<label for="expiration">Expiration</label>
+							<input class="max-3" type="date" id="expiration">
+						</div>
+					</div>
 				</div>
 
-				<div class="grid grid-bottom">
+				<div class="grid grid-middle">
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4" required>
-							<label for="expiration">Expiration</label>
-							<input type="date" id="expiration">
-						</div>
-					</div>
-
-					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
-							<label for="signup_year">year</label>
-							<input type="text" name="e-mail" id="signup_year" required>
-						</div>
-					</div>
-
-					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-							<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4" required>
+							<div class="gutter-1-4" required>
 								<label for="security">Security Code</label>
-								<input type="password" id="security">
+								<input class="max-4" type="password" id="security">
+								<img class="security-pic" src="img/cvv.jpg">
 							</div>
+
 					</div>
+
+
 
 	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4" required>
 						<button href="thankyou.html">Submit</button>

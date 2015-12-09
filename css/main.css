@@ -82,11 +82,29 @@ h1{
 	padding:0em;
 }
 
-input{
+
+fieldset{
+	border: none;
+}
+
+
+input:not([type="radio"]){
 	border-radius: 6px;
 	border: 1px solid #ccc;
 	display: inline-block;
 	width:100%;
+}
+
+.credit {
+	max-width: 200px;
+	vertical-align: middle;
+	padding-left: .5em;
+}
+
+.paypal {
+	max-width: 200px;
+	vertical-align: middle;
+	padding-left: .5em ;
 }
 
 button{
@@ -203,6 +221,22 @@ button:hover{
 	max-width: 40em;
 	margin: 0 auto;
 }
+
+input.max-3{
+	max-width: 10em;
+	margin: 0 auto;
+}
+
+input.max-4{
+	max-width: 5em;
+	margin: 0 auto;
+}
+
+.security-pic{
+	max-width: 200px;
+	margin: 0 auto;
+}
+
 
 .fig-our{
 	text-align:center;
