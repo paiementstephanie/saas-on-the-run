@@ -130,8 +130,8 @@ button:hover{
 .packages p::before{
 	content: " ";
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 50px;
+	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -155,7 +155,7 @@ button:hover{
 	background-image: url(../img/group-icon.svg);
 }
 
-.alert::before{
+.alerts::before{
 	background-image: url(../img/alert-icon.svg);
 }
 
