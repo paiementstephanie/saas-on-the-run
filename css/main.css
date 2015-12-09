@@ -151,15 +151,19 @@ button:hover{
 	background-image: url(../img/multi.svg);
 }
 
-.storage::before{
+.group::before{
 	background-image: url(../img/multi.svg);
 }
 
-.storage::before{
+.alert::before{
 	background-image: url(../img/multi.svg);
 }
 
-.storage::before{
+.lock::before{
+	background-image: url(../img/multi.svg);
+}
+
+.cloud::before{
 	background-image: url(../img/multi.svg);
 }
 
