@@ -143,7 +143,23 @@ button:hover{
 	background-image: url(../img/multi.svg);
 }
 
-.multi-media::before{
+.storage::before{
+	background-image: url(../img/multi.svg);
+}
+
+.boards::before{
+	background-image: url(../img/multi.svg);
+}
+
+.storage::before{
+	background-image: url(../img/multi.svg);
+}
+
+.storage::before{
+	background-image: url(../img/multi.svg);
+}
+
+.storage::before{
 	background-image: url(../img/multi.svg);
 }
 
