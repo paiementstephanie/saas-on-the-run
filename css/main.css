@@ -313,6 +313,12 @@ footer p{
 		text-align:center;
 	}
 
+	.security-pic{
+	max-width: 240px;
+	margin: 0 auto;
+	padding-top: 0em;
+}
+
 }
 
 @media only screen and (min-width:38em){
@@ -326,6 +332,12 @@ footer p{
 
 .nav-ol{
 	float:right;
+}
+
+	.security-pic{
+	max-width: 170px;
+	margin: 0 auto;
+	padding-top: 0em;
 }
 
 }
@@ -350,6 +362,13 @@ footer p{
 	.package-link{
 		padding-top: 10em;
 	}
+
+	.security-pic{
+	max-width: 260px;
+	margin: 0 auto;
+	padding-top: 0em;
+}
+
 }
 
 @media only screen and (min-width:90em){
@@ -375,6 +394,12 @@ footer p{
 	max-width: 200px;
 	vertical-align: middle;
 	padding-left: .5em ;
+}
+
+	.security-pic{
+	max-width: 260px;
+	margin: 0 auto;
+	padding-top: 0em;
 }
 
 }
