@@ -143,6 +143,10 @@ button:hover{
 	background-image: url(../img/multi.svg);
 }
 
+.multi-media::before{
+	background-image: url(../img/multi.svg);
+}
+
 .free-trial{
 	background-color: #999999;
 }
