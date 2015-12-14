@@ -277,8 +277,10 @@ form{
 }
 
 .price-p{
-		background-color: #eee;
+	background-color: #eee;
+	text-align:center;
 }
+
 
 footer{
 	background-color: white;
@@ -404,6 +406,10 @@ footer p{
 	max-width: 260px;
 	margin: 0 auto;
 	padding-top: 0em;
+}
+
+.price-p{
+	max-width: 40px;
 }
 
 }
