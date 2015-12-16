@@ -47,7 +47,7 @@
 
 		<div class="unit xs-1 s-1 m-1 l-1 xl-1 join-2 island" role="form">
 			<div>
-				<h2>Personal Information</h3>
+				<h2>Personal Information</h2>
 			</div>
 			<form action="thankyou.html" method="post" class="grid grid-bottom gutter-1-4 max-2">
 				<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
@@ -81,7 +81,7 @@
 
 		<div class="unit xs-1 s-1 m-1 l-1 xl-1 join-2 island">
 			<div>
-				<h2>Billing Information</h3>
+				<h2>Billing Information</h2>
 			</div>
 			<form  action="https://formspree.io/paie0008@algonquincollege.com" method="post" class="gutter-1-4 max-2">
 
@@ -90,12 +90,12 @@
 <div class="grid">
 			<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 join-2 island">
 				<input id="credit" type="radio" name="feeling">
-				<label for="credit"><img class="credit" src="img/credit-cards.png"></label>
+				<label for="credit"><img class="credit" src="img/credit-cards.png" alt=""></label>
 			</div>
 
 			<div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 join-2 island">
 				<input id="paypal" type="radio" name="feeling">
-				<label for="paypal"><img class="paypal"src="img/paypal.png"></label>
+				<label for="paypal"><img class="paypal" src="img/paypal.png" alt=""></label>
 			</div>
 </div>
 		</fieldset>
@@ -125,26 +125,26 @@
 
 
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4 text-left" required>
+						<div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4 text-left">
 							<label for="expiration">Expiration</label>
-							<input class="max-3" type="date" id="expiration">
+							<input class="max-3" type="date" id="expiration" required>
 						</div>
 					</div>
 				</div>
 
 				<div class="grid grid-middle">
 					<div class=" unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-left">
-							<div class="gutter-1-4" required>
+							<div class="gutter-1-4">
 								<label for="security">Security Code</label>
-								<input class="max-4 align" type="password" id="security">
-								<img class="security-pic" src="img/cvv.png">
+								<input class="max-4 align" type="password" id="security" required>
+								<img class="security-pic" src="img/cvv.png" alt="">
 							</div>
 
 					</div>
 
 
 
-	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4" required>
+	 				<div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-4" >
 						<button href="thankyou.html">Submit</button>
 					</div>
 				</div>
